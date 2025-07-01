@@ -1,41 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Advance Car Parking</title>
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div id="back">
-        <h1 id="mar"> Login</h1>
-        <br>
-        <div id="one">  
-            <label for="Username"> Username </label><br>
-            <input placeholder="Enter Your Username" title="Enter Your Username" type="text" name="User-name" id="User-name" class="input_field"><br>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div id="two">
-            <label for="Password"> Password </label>
-            <input placeholder="Enter Your Password" title="Enter Your Password" type="text" name="password" id="password" class="input_field">
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div id="button-container">
-            <button onclick="window.location.href='home.html'">Login</button>
-            
-            <!-- <button onclick="speechSynthesis.speak(new SpeechSynthesisUtterance())"><a href="home.html"> logine</a></button>
-         -->
-        </div>
-
-        <a href="sign.html" id="sign-up-link">You don't have an account? Click here</a>
-    </div>
+  <div class="container">
+    <div class="logo">advance car<br>parking</div>
+    <h1>Hi !<br>Welcome</h1>
+    <p>I'm waiting for you, please enter your detail</p>
+    <form>
+      <input type="text" placeholder="Username, Email or Phone Number" required>
+      <input type="password" placeholder="Password" required>
+      <div class="options">
+        <label><input type="checkbox"> Remember Me</label>
+        <a href="forgot.html">Forgot Password ?</a>
+      </div>
+      <button type="submit"><a href="introduction.html">Log In</a></button>
+    </form>
+    <p class="bottom-text">Don't have an account ? <a href="sign.html">Sign Up</a></p>
+  </div>
 </body>
 </html>

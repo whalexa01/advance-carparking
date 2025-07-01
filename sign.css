@@ -1,83 +1,76 @@
-#back {
-  margin: auto;
-  margin-bottom: 50%;
-  margin-top: 100px;
-  border: 2px solid #000000;
-  border-radius: 50%;
-  
-  height: 400px;
-  width: 420px;
-  padding: 20px;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fdfdfd;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-#mar {
+.container {
+  width: 90%;
+  max-width: 350px;
   text-align: center;
-  
-  border-radius: 2%;
-  border-style: dotted;
-  
-  padding: 10px;
-  margin-top: -20px;
 }
 
-#one, #two {
-  margin: 10px;
-  display: flex;
-  
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  margin-top: 30px;
+.logo {
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  color: #2f2f3f;
+  margin-bottom: 30px;
 }
 
-#button-container {
-  display: flex;
-  justify-content:center;
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+p {
+  color: #aaa;
+  margin: 10px 0 20px;
+  font-size: 13px;
+}
+
+form input[type="text"],
+form input[type="password"] {
   width: 100%;
-  margin-top: 70px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+}
+
+small {
+  display: block;
+  color: #aaa;
+  font-size: 10px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 button {
-  padding: 1.3em 3em;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #ffffff;
+  width: 100%;
+  padding: 14px;
+  background: #3a3741;
+  color: #fff;
   border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
+  font-size: 16px;
   cursor: pointer;
-  outline: none;
-  text-align: center; /* Ensures text is centered inside the button */
+  margin-top: 10px;
 }
 
-button:hover {
-  background-color: #00e1ff;
-  box-shadow: 0px 15px 20px rgb(229, 255, 0);
-  color: #fffb00;
-  transform: translateY(-7px);
+.bottom-text {
+  margin-top: 20px;
+  color: #aaa;
+  font-size: 12px;
 }
 
-button:active {
-  transform: translateY(-1px);
-}
-
-a {
-  margin-left: 26%;
-  display: block;
-  text-align: center;
-}
-
-
-
-body {
-  height: max-content;
-  background-image: url("https://t3.ftcdn.net/jpg/03/19/00/58/360_F_319005824_sS4Tzx2QZ7WXqn8BP9yz0sFTyUnFEqbw.jpg");
+.bottom-text a {
+  color: #3a3741;
+  font-weight: bold;
+  text-decoration: none;
 }

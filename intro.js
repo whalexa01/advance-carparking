@@ -1,0 +1,1 @@
+onlickbutton(alert('logine page'))

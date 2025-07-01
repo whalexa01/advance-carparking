@@ -1,0 +1,27 @@
+
+#logo
+{      
+        font-size: 25px;
+        color: orange;
+        margin-left: 5px ;
+        background-color: black;
+        
+}
+#border 
+{
+    height:300px;
+    width:420px;
+    border: 2px;
+    border-radius:2px;
+    margin: auto;
+    margin-left: 400px;
+    border-style: solid;
+    text-align: center;
+    margin-top: 100px;
+    
+    color: rgb(49, 86, 109);
+}
+body{
+    background-image:url("https://img.freepik.com/free-photo/travel-concept-with-map-background_23-2147982106.jpg?semt=ais_hybrid&w=740");
+    background-size: cover;
+}

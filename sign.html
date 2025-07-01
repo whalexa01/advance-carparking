@@ -1,36 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="sign.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up - Advance Car Parking</title>
+  <link rel="stylesheet" href="sign.css">
 </head>
 <body>
-    <div id="back">
-        <h1 id="mar"> Sign Up</h1>
-        <br>
-        <div id="one">  
-            <label for="Username"> Username </label>
-            <input placeholder="Enter Your Username" title="Enter Your Username" type="text" name="User-name" id="User-name" class="input_field">
-        </div>
-        <br>
-        <br>
-        <div id="two">
-            <label for="Password"> Password </label>
-            <input placeholder="Enter Your Password" title="Enter Your Password" type="text" name="password" id="password" class="input_field">
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div id="button-container">
-            <button onclick="window.location.href='login.html'">Login</button>
-        </div>
-
-
-    </div>
+  <div class="container">
+    <div class="logo">advance car<br>parking</div>
+    <h1>Hi !<br>Welcome</h1>
+    <p>Let's create an account</p>
+    <form>
+      <input type="text" placeholder="Email or Phone Number" required>
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Username" required>
+      <input type="password" placeholder="Password" required>
+      <small>Must contain a number and at least 6 characters</small>
+      <input type="password" placeholder="Confirm Password" required>
+      <small>Must contain a number and at least 6 characters</small>
+      <button type="submit"><a href="login.html">Sign Up</a></button>
+    </form>
+    <p class="bottom-text">Have an account ? <a href="login.html">Log In</a></p>
+  </div>
 </body>
 </html>
